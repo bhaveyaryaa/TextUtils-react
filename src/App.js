@@ -51,7 +51,7 @@ const toggleMode = () => {
       <div className="container my-3">
         <Switch>
           <Route exact path="/about">
-            <About />
+            <About mode={mode} />
           </Route> 
           <Route exact path="/">
               <TextForm showalert={showalert} heading="Enter the text to analyze" mode={mode} />
