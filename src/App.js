@@ -53,7 +53,7 @@ const toggleMode = () => {
           <Route exact path="/about">
             <About mode={mode} />
           </Route> 
-          <Route exact path="/">
+          <Route exact path="/TextUtils-react/">
               <TextForm showalert={showalert} heading="Enter the text to analyze" mode={mode} />
           </Route>
         </Switch>
